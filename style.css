@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-section {
+  display: flex;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+  justify-content: center;
+  gap: 80px;
+
+  .navigation-section-div {
+    padding: 5px 0 5px 0;
+  }
+}
+
+.hero-section {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: url("../images/intro-bg.jpg");
+  overlay: 0 0 0 0.8;
+  color: white;
+}
+
+.hero-section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-bottom: 140px;
+}
+
+.hero-section > div > h1 {
+  font-size: 140px;
+  font-weight: 400;
+  font-family: "Rochester";
+}
+
+.hero-section > div > p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Open sans";
+}
+
+.specials-section {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  .specials-section-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .specials-section-top > div {
+    height: 2px;
+    width: 70px;
+    background-color: red;
+  }
+
+  .specials-section-top > h1 {
+    font-size: 38px;
+  }
+
+  .specials-section-bottom {
+    display: grid;
+    margin: 0 250px 0 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .card > h1 {
+      font-size: 24px;
+      font-weight: 400;
+      color: #333;
+      text-align: center;
+    }
+
+    .card > img {
+      width: 400px;
+    }
+
+    .card > p {
+      font-size: 15px;
+      font-weight: 400;
+      color: rgb(119, 119, 119);
+      text-align: center;
+    }
+  }
+}
+
+.story-section {
+}
+
+.menu-section {
+}
+
+.menu-images-section {
+}
+
+.our-chef-section {
+}
+
+.contact-us-section {
+}
+
+.footer-section {
+}
