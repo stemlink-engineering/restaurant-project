@@ -3,47 +3,46 @@
   padding: 0;
 }
 
-.navigation-section {
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
   display: flex;
-  background-color: rgb(38, 38, 38);
-  color: white;
-  padding: 12px;
-  text-transform: uppercase;
   justify-content: center;
   gap: 80px;
-
-  .navigation-section-div {
-    padding: 5px 0 5px 0;
+  background-color: #262626;
+  padding: 20px 0 20px 0;
+  font-family: "Open sans";
+  a {
+    display: block;
+    color: #eeeeee;
   }
 }
 
 .hero-section {
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  background-image: url("../images/intro-bg.jpg");
-  overlay: 0 0 0 0.8;
-  color: white;
-}
-
-.hero-section > div {
   display: flex;
   flex-direction: column;
-  gap: 100px;
-  margin-bottom: 140px;
-}
-
-.hero-section > div > h1 {
-  font-size: 140px;
-  font-weight: 400;
-  font-family: "Rochester";
-}
-
-.hero-section > div > p {
-  font-size: 24px;
-  font-weight: 400;
-  font-family: "Open sans";
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  h1 {
+    font-size: 140px;
+    color: white;
+    font-weight: 400;
+    font-family: "Rochester";
+  }
+  p {
+    color: white;
+    font-family: "Open sans";
+    font-size: 24px;
+    margin-top: 150px;
+  }
+  background-image: url("./images/intro-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .specials-section {
@@ -69,12 +68,16 @@
 
   .specials-section-top > h1 {
     font-size: 38px;
+    font-family: "Open sans";
+    font-weight: 400;
   }
 
   .specials-section-bottom {
     display: grid;
     margin: 0 250px 0 250px;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    font-family: "Open sans";
 
     .card {
       display: flex;
@@ -104,6 +107,20 @@
 }
 
 .story-section {
+  height: 300px;
+  margin: 30px;
+  border: 1px solid red;
+  position: relative;
+}
+
+
+.small-div{
+  width: 24px;
+  height: 24px;
+  background-color: blue;
+  position: absolute;
+  top: 40px;
+  right: 40px; 
 }
 
 .menu-section {
